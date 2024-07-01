@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/php:8.2
+FROM mcr.microsoft.com/devcontainers/php:8.3
 
 # Change default umask and add user to web group so we can share write permission on web files
 RUN sed -i 's/^UMASK\s*022/UMASK 002/' /etc/login.defs
